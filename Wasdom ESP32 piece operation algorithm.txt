@@ -1,0 +1,34 @@
+Wasdom ESP32 piece operation algorithm
+
+  1- The first thing I did was download the Arduino IDE to program the Board ESP32 and choose software to download
+ 2- Choose to download the Arduino IDE on the device for windows 64 bit
+   3- Choose to download the program from the windows app download store and choose Download
+  4- After downloading, open the Arduino IDE program (this program does not automatically support Board EAP32)
+   5- I will download a file from stable on Boards manger from the ESPRESSIF website
+  6- Go to the Arduino IDE and choose from the file choose preferences
+  7- Put the link copied from stable in Addinal Boards manger and paste it and press ok
+  8- After such tools, go down to Board and choose Boards manger, search for esp32 and choose install
+   9- After downloading, go to tools, then board, and find that all Board esp32 has been added, and the Arduino now supports esp32
+  10- (This step is optional) I download the git program because I may need to download a code from gitHub, choose a suitable version for the operating system, and then the following on all the options, and this is how the git program was downloaded
+  11- The last step is to download the examples of Board ESP32
+  12- From the ESPRESSIF website, choose an example and click on the link provided
+  13- Take me to the gitHub page and click on the arduino-esp32 link
+  14- Takes me to a page. Go to the Release Link
+15- Scroll down and choose the esp32-2.0.2.zip file and the examples will be downloaded
+  16- Go to this file from the Documents folder and go to the Library folder, copy the file you downloaded and Extacting
+  17- From the contents of the file, get the library file and copy all the files inside it and transfer them to a document and then the Arduino library
+  18- Now the examples are inside the library
+  19- Close the Arduino program and open it again to download the examples
+  20- Choose tools, then Board, then ESP32, choose ESP32 Dev Module, and now the editor settings have changed to Boards
+  21- From a file I choose examples and find that all esp32 examples are present
+Now we have configured the Arduino to program the Board esp32 and downloaded the examples
+  22- From tools choose Board and choose the type of Board ESP32 DOIT ESP32 and then choose DEVKJT VI If we have the widget, choose port com6 or according to the widget port (I didn't have it)
+  23- From the file choose the examples and choose 01 Basic and choose Blink
+  24- The code is written
+  25- Copy the code and paste it into the emulator and now the ESP32 piece is running
+
+
+
+
+«·ÿ«·»…: —»Ï ⁄«»œ ”«⁄œ «··ÂÌ»Ì
+«·—ﬁ„ «·Ã«„⁄Ì : 439001527
